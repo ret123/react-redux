@@ -1,1 +1,11 @@
-mongodb://ret123:fedora11@ds247317.mlab.com:47317/ret-emaily-prod
+module.exports = {
+  googleClientID: '217326034286-8f8uia1ptqdiqf45hroa3bsp6gn4k0mk.apps.googleusercontent.com',
+  googleClientSecret: 'ta930DxcROsheIAlN0NxNAZE',
+  mongoURI: 'mongodb://ret:fedora11@ds163016.mlab.com:63016/ret-emaily',
+  cookieKey: 'oifhrwehflrejglfuirogflrkfgvrrertrtkjrlkjtkjytrhfglndgkl',
+  stripePublishableKey: 'pk_test_RGPh49FK8nMdrxJADCmSkChq',
+  stripeSecretKey: 'sk_test_FlC9MOo0UeTgALDly6suk9s7',
+  sendGridKey: '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',
+  redirectDomain: 'http://localhost:3000'
+
+};
